@@ -1,0 +1,22 @@
+.login {
+  background-color: rgb(45, 255, 157);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 200px;
+}
+
+.login__container > .MuiButton-root {
+  margin-top: 10px !important;
+  padding: 20px !important;
+  background-color: purple !important;
+}
